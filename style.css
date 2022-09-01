@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-justify-space-around{
+    justify-content: space-around;
+}
+
+.flex-justify-end{
+    justify-content: end;
+}
+
+.button{
+    padding: 1.8vh 3vw;
+    background-color: #ba0cc5;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.navbar{
+    background-color: #000000;
+    height: 12vh;
+    color: #ffffff;
+}
+
+.logo-container{
+    width: 16vw;
+}
+
+.line{
+    height: 7vh;
+    border-right: 1px solid #ffffff;
+    position: absolute;
+    left: 16vw;
+}
+
+.list{
+    width: 44vw;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.dropdown-button{
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    top: -0.8vh;
+    left: 0.3vw;
+}
+
+.button-container{
+    width: 36vw;
+    padding-right: 8vw;
+}
+
+.master-container{
+    background: url(./assets/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 135vh;
+    color: #ffffff;
+    z-index: -1;
+}
+
+.hero-container{
+    height: 135vh;
+    z-index: 1;
+    background-color:  rgba(90, 23, 95, 0.2);
+}
+
+.hero{
+    height: 52vh;
+    position: relative;
+    top: 26vh;
+    line-height: 1.2;
+}
+
+.hero-heading{
+    font-size: 83px;
+    text-align: center;
+}
+
+.hero-description{
+    font-size: 26px;
+}
+
+.button-large{
+    margin-top: 13vh;
+    font-size: 24px;
+}
