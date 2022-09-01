@@ -19,4 +19,4 @@ Here I got a chance to explore the CSS Position Property. After quite a bit of h
 
 ## Live Link
 
-**[Project in Action 🔥](https://digital-marketing-fsjs.netlify.app/)**
+**[Project in Action 🔥](https://crypto-fsjs.netlify.app/)**
